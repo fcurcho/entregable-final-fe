@@ -8,11 +8,19 @@
 
 :root {
   --text-color: #242E52;
-  --hover-color: #242e52;
+  --hover-color: #242e5260;
 }
 
 body {
   font-family: 'Be Vietnam Pro', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 540px;
+  height: fit-content;
 }
 
 nav {
@@ -41,5 +49,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  
+  color: var(--hover-color);
 }
