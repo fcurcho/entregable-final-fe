@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&display=swap');
 
+/*Reset*/
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
+/*Variables de Colores*/
+
 :root {
-  --text-color: #242E52;
-  --hover-color: #242e5260;
+  --text-color: #232C50;
+  --text-color2: #B3B2B7;
+  --hover-color: #232C5060;
+  --text-color2: #000000;
+  --button-color: #8B48BF;
+  --background-color: #3CDDF3;
+  --background-color2: #8B48BF60;
 }
 
 body {
@@ -18,27 +27,38 @@ body {
   justify-content: center;
 }
 
+/*Parametros Mobile First*/
+
 .container {
   width: 540px;
   height: fit-content;
 }
 
+/*Primera Section*/
+
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin: 65px 165px;
+  justify-content: space-between;
+  margin: 55px;
+}
+
+nav img {
+  cursor: pointer;
+}
+
+nav i {
+  font-size: 50px;
+  cursor: pointer;
+  color: var(--text-color);
 }
 
 nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  display: none;
 }
 
-nav ul li {
-  list-style: none;
+nav button {
+  display: none;
 }
 
 nav ul li a {
@@ -50,4 +70,134 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--hover-color);
+}
+
+.tennis-player {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0 115px 0;
+}
+
+.tennis-player img {
+  width: 400px;
+  height: 342px;
+}
+
+/*Contenido primera section (Hero)*/
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+  margin: 40px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+.hero-content p {
+  font-weight: 600;
+  font-size: 18px;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.hero-content button {
+  background-color: #8B48BF;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 50px;
+  cursor: pointer;
+}
+
+.hero-content button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*Segunda section*/
+
+.section-pro {
+  background-color: var(--background-color);
+  color: white;
+  padding: 50px 20px;
+  margin-bottom: 65px;
+}
+
+.section-pro h2 {
+  font-size: 36px;
+  font-weight: bold;
+  width: 300px;
+  margin-bottom: 70px;
+}
+
+.section-pro p {
+  line-height: 28px;
+  word-spacing: 2px;
+  width: 450px;
+}
+
+/*Tercera section*/
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+}
+
+.info-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.info-1 div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+
+.info-1 h4 {
+  width: 465px;
+  height: 43px;
+  background-color: var(--background-color2);
+  display: flex;
+  align-items: center;
+  padding-left: 55px;
+}
+
+.info-1 button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--button-color);
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Be Vietnam Pro';
+  cursor: pointer;
+}
+
+.info-1 p {
+  margin: 40px 0 35px 0;
+  font-size: 18px;
+  line-height: 35px;
+  color: #B3B2B7;
+  
 }

@@ -18,14 +18,17 @@
           <li><a href="./pages/community.html">Community</a></li>
         </ul>
         <button><a href="./pages/contact.html">Contact</a></button>
+        <i class="fa-solid fa-bars"></i>
       </nav>
       <!--main-->
       <main>
         <!--primera section-->
         <section>
           <div>
-            <div class="tennis-player"></div>
-            <div>
+            <div class="tennis-player">
+              <img src="./img/padel-intro.png" alt="tennis player">
+            </div>
+            <div class="hero-content">
               <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h1>
               <p>
                 The final Open of the 2022 World Padel Tour season is underway,
@@ -36,27 +39,26 @@
           </div>
         </section>
         <!--segunda section-->
-        <section>
+        <section class="section-pro">
           <div>
-            <div>
-              <h2>What's different between pros?</h2>
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-                aliquet consequat purus sit amet sodales. In faucibus ut nisi eu
-                dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.
-              </p>
-            </div>
+            <h2>What's different between pros?</h2>
+          </div>
+          <div>
+            <p>
+              Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams
+            </p>
           </div>
         </section>
         <!--tercer section-->
-        <section>
+        <section class="app-info">
           <div>
             <!--al div de abajo ponerlo como row-->
-            <div>
-              <div>
-                <h4>Track company-wide progress</h4>
+            <div >
+              <div class="info-1">
+                <div>
+                  <button>01</button>
+                  <h4>Track company-wide progress</h4>
+                </div>
                 <p>
                   Donec elit est, mattis lacinia arcu eu, efficitur consequat
                   augue. Nam tellus sem, tempus pellentesque egestas vitae,
@@ -64,8 +66,11 @@
                   consequat dolor.
                 </p>
               </div>
-              <div>
-                <h4>Advance built-in reports</h4>
+              <div class="info-1">
+                <div>
+                  <button>02</button>
+                  <h4>Advance built-in reports</h4>
+                </div>
                 <p>
                   Donec elit est, mattis lacinia arcu eu, efficitur consequat
                   augue. Nam tellus sem, tempus pellentesque egestas vitae,
@@ -73,23 +78,28 @@
                   consequat dolor.
                 </p>
               </div>
-            </div>
-            <!--al div de abajo ponerlo centrado-->
-            <div>
-              <h4>Everything you need in one place</h4>
-              <p>
-                Donec elit est, mattis lacinia arcu eu, efficitur consequat augue.
-                Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel
-                nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
-              </p>
+              <div class="info-1">
+                <div>
+                  <button>03</button>
+                  <h4>Everything you need in one place</h4>
+                </div>
+                <p>
+                  Donec elit est, mattis lacinia arcu eu, efficitur consequat augue.
+                  Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel
+                  nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.
+                </p>
+              </div>
             </div>
           </div>
         </section>
+            <!--al div de abajo ponerlo centrado-->
+            <!--EA: Cambie un poco la estructura para trabajar lo de mobile first, el div de abajo lo subi dentro del div info-1-->
+            <!--poner el div de abajo como row-->
         <section>
           <h1>Best of the month</h1>
-          <!--poner el div de abajo como row-->
           <div>
             <!--div para sanyo-->
+            <!--EA: En version mobile solo hay una persona, Lebron, los demas deberian ir ocultos con display none creo y agregar el boton More-->
             <div>
               <div>
                 <img src="./img/avatar-sanyo.png" alt="sanyo" />
@@ -174,4 +184,5 @@
     </div>
     <!--navbar-->
   </body>
+  <script src="https://kit.fontawesome.com/d5142eb2b9.js" crossorigin="anonymous"></script>
 </html>
