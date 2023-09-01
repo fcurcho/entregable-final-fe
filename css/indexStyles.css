@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&display=swap");
 
 /*Reset*/
 
@@ -11,193 +11,372 @@
 /*Variables de Colores*/
 
 :root {
-  --text-color: #232C50;
-  --text-color2: #B3B2B7;
-  --hover-color: #232C5060;
+  --text-color: #232c50;
+  --text-color2: #b3b2b7;
+  --hover-color: #232c5060;
   --text-color2: #000000;
-  --button-color: #8B48BF;
-  --background-color: #3CDDF3;
-  --background-color2: #8B48BF60;
+  --button-color: #8b48bf;
+  --background-color: #3cddf3;
+  --background-color2: #8b48bf60;
 }
 
-body {
-  font-family: 'Be Vietnam Pro', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@media (max-width: 540px) {
+  body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-/*Parametros Mobile First*/
+  /*Parametros Mobile First*/
 
-.container {
+  /*.container {
   width: 540px;
   height: fit-content;
-}
+}*/
 
-/*Primera Section*/
+  /*Primera Section*/
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 55px;
-}
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 55px;
+  }
 
-nav img {
-  cursor: pointer;
-}
+  nav img {
+    cursor: pointer;
+  }
 
-nav i {
-  font-size: 50px;
-  cursor: pointer;
-  color: var(--text-color);
-}
+  nav i {
+    font-size: 50px;
+    cursor: pointer;
+    color: var(--text-color);
+  }
 
-nav ul {
-  display: none;
-}
+  nav ul {
+    display: none;
+  }
 
-nav button {
-  display: none;
-}
+  nav button {
+    display: none;
+  }
 
-nav ul li a {
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 13px;
-  color: var(--text-color);
-}
+  nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text-color);
+  }
 
-nav ul li a:hover {
-  color: var(--hover-color);
-}
+  nav ul li a:hover {
+    color: var(--hover-color);
+  }
 
-.tennis-player {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 60px 0 115px 0;
-}
+  .tennis-player {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0 115px 0;
+  }
 
-.tennis-player img {
-  width: 400px;
-  height: 342px;
-}
+  .tennis-player img {
+    width: 400px;
+    height: 342px;
+  }
 
-/*Contenido primera section (Hero)*/
+  /*Contenido primera section (Hero)*/
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  text-align: end;
-  margin: 40px;
-}
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    margin: 40px;
+  }
 
-.hero-content h1 {
-  font-size: 50px;
-  font-weight: bold;
-  color: var(--text-color);
-  margin-bottom: 40px;
-}
+  .hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 40px;
+  }
 
-.hero-content p {
-  font-weight: 600;
-  font-size: 18px;
-  word-spacing: 3px;
-  margin-bottom: 30px;
-  line-height: 30px;
-}
+  .hero-content p {
+    font-weight: 600;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
 
-.hero-content button {
-  background-color: #8B48BF;
-  border: none;
-  border-radius: 50px;
-  padding: 15px 50px;
-  cursor: pointer;
-}
+  .hero-content button {
+    background-color: #8b48bf;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    cursor: pointer;
+  }
 
-.hero-content button a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
+  .hero-content button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
 
-/*Segunda section*/
+  /*Segunda section*/
 
-.section-pro {
-  background-color: var(--background-color);
-  color: white;
-  padding: 50px 20px;
-  margin-bottom: 65px;
-}
+  .section-pro {
+    background-color: var(--background-color);
+    color: white;
+    padding: 50px 20px;
+    margin-bottom: 65px;
+  }
 
-.section-pro h2 {
-  font-size: 36px;
-  font-weight: bold;
-  width: 300px;
-  margin-bottom: 70px;
-}
+  .section-pro h2 {
+    font-size: 36px;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 70px;
+  }
 
-.section-pro p {
-  line-height: 28px;
-  word-spacing: 2px;
-  width: 450px;
-}
+  .section-pro p {
+    line-height: 28px;
+    word-spacing: 2px;
+    width: 450px;
+  }
 
-/*Tercera section*/
+  /*Tercera section*/
 
-.app-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 35px;
-}
+  .app-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+  }
 
-.info-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
-}
+  .info-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+  }
 
-.info-1 div {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-left: 20px;
-}
+  .info-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+  }
 
-.info-1 h4 {
-  width: 465px;
-  height: 43px;
-  background-color: var(--background-color2);
-  display: flex;
-  align-items: center;
-  padding-left: 55px;
-}
+  .info-1 h4 {
+    width: 465px;
+    height: 43px;
+    background-color: var(--background-color2);
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+  }
 
-.info-1 button {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--button-color);
-  padding: 12px 30px;
-  border-radius: 50px;
-  border: none;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: 'Be Vietnam Pro';
-  cursor: pointer;
-}
+  .info-1 button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--button-color);
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Be Vietnam Pro";
+    cursor: pointer;
+  }
 
-.info-1 p {
-  margin: 40px 0 35px 0;
-  font-size: 18px;
-  line-height: 35px;
-  color: #B3B2B7;
-  
+  .info-1 p {
+    margin: 40px 0 35px 0;
+    font-size: 18px;
+    line-height: 35px;
+    color: #b3b2b7;
+  }
+
+  .best {
+    font-size: 40px;
+    text-align: center;
+    color: #242e53;
+    font-weight: 700;
+  }
+
+  .sanyo {
+    display: none;
+  }
+
+  .navarro {
+    display: none;
+  }
+
+  .lebron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .lebron-image {
+    position: absolute;
+    align-self: center;
+    margin-bottom: 7rem;
+  }
+
+  .lebron-text {
+    background-color: #fafafa;
+    font-size: 16px;
+    font-weight: 500;
+    height: 219px;
+    width: 445px;
+    margin-top: 5rem;
+    align-self: center;
+    padding: 5rem 2rem 0;
+    text-align: center;
+  }
+
+  .lebron-text h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3f4868;
+    margin-bottom: 1rem;
+  }
+
+  .lebron-text p {
+    color: #b9b9c1;
+  }
+
+  .div-button-more {
+    display: flex;
+    justify-content: center;
+  }
+
+  .more {
+    background-color: #8b48bf;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    cursor: pointer;
+    color: #ffffff;
+    width: 134px;
+    height: 44px;
+    margin-top: 3rem;
+  }
+
+  .go-for-it {
+    background-color: #3cddf3;
+    margin-top: 4rem;
+    width: 540px;
+    height: 400px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get-to-know {
+    width: 350px;
+    align-self: center;
+    margin-top: 4rem;
+  }
+
+  .get-to-know p {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .go-for-it-button {
+    background-color: #232c50;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    width: 134px;
+    height: 44px;
+    margin-top: 3rem;
+    align-self: center;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+
+  .go-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pie-de-pagina {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  footer {
+    height: 534.71px;
+    background-color: #1e1e26;
+    color: #ffffff;
+    padding-top: 4rem;
+  }
+
+  .go-form input {
+    width: 380px;
+    height: 44px;
+    border-radius: 2rem;
+    padding-left: 0.8rem;
+    border: none;
+  }
+
+  .go-form button {
+    height: 42px;
+    width: 63px;
+    border-radius: 1.3rem;
+    background-color: #8b48bf;
+    margin-top: 2px;
+    cursor: pointer;
+    border: none;
+    margin-left: 0.6rem;
+  }
+
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .lista {
+    list-style: none;
+  }
+
+  .lista li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .logo-footer img {
+    fill: #white;
+  }
+
+  .copyright {
+    color: #8c8c94;
+    display: flex;
+    justify-content: center;
+  }
 }
