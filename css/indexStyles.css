@@ -509,6 +509,17 @@ footer {
   }
 }
 
+/*Continuar aqui los media queries de abajo solo son para ordenar una parte que se veia mal*/
+
+
+
+
+
+
+
+
+
+
 @media (1000px <= width < 1150px) {
   .hero {
     flex-direction: column;
