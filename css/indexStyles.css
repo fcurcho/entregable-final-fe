@@ -392,6 +392,7 @@ footer {
   font-size: 13px;
 }
 
+
 @media (width >= 1000px) {
   .container {
     width: 100vw;
@@ -507,14 +508,286 @@ footer {
     width: 500px;
     margin-bottom: 0;
   }
-}
+
 
 /*Continuar aqui los media queries de abajo solo son para ordenar una parte que se veia mal*/
 
+.best {
+  font-size: 40px;
+  text-align: center;
+  color: #242e53;
+  font-weight: 700;
+}
+
+.best-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sanyo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.sanyo-image{
+  position: absolute;
+  align-self: center;
+  margin-bottom: 7rem;
+}
+
+.sanyo-text{
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+  height: 219px;
+  width: 445px;
+  margin-top: 5rem;
+  align-self: center;
+  padding: 5rem 2rem 0;
+  text-align: center;
+}
+
+.sanyo-text h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #3f4868;
+  margin-bottom: 1rem;
+}
+
+.sanyo-text p{
+  color: #b9b9c1;
+}
+
+.navarro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navarro-image{
+  position: absolute;
+  align-self: center;
+  margin-bottom: 7rem;
+}
+
+.navarro-text{
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+  height: 219px;
+  width: 445px;
+  margin-top: 5rem;
+  align-self: center;
+  padding: 5rem 2rem 0;
+  text-align: center;
+}
+
+.navarro-text h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #3f4868;
+  margin-bottom: 1rem;
+}
+
+.navarro-text p{
+  color: #b9b9c1;
+}
+
+.lebron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.lebron-image {
+  position: absolute;
+  align-self: center;
+  margin-bottom: 7rem;
+}
+
+.lebron-text {
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+  height: 219px;
+  width: 445px;
+  margin-top: 5rem;
+  align-self: center;
+  padding: 5rem 2rem 0;
+  text-align: center;
+}
+
+.lebron-text h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #3f4868;
+  margin-bottom: 1rem;
+}
+
+.lebron-text p {
+  color: #b9b9c1;
+}
+
+.div-button-more {
+  display: flex;
+  justify-content: center;
+}
+
+.more {
+  background-color: #8b48bf;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 50px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 134px;
+  height: 44px;
+  margin-top: 3rem;
+}
+
+.go-for-it {
+  background-color: #8B48BF;
+  margin-top: 4rem;
+  width: 100%;
+  height: 224px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.get-to-know {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  margin-left: 20rem;
+}
+
+.get-to-know p {
+  font-size: 40px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.p2, .p4{
+  margin-left: 0.4rem;
+}
+
+.primera-linea, .segunda-linea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.segunda-linea{
+  margin-right: 4rem;
+}
+
+.go-for-it-button {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #8B48BF;
+  width: 134px;
+  height: 44px;
+  margin-left: 41rem;
+  margin-bottom: 3rem;
+}
+
+footer {
+  height: 300px;
+  background-color: #1e1e26;
+  color: #ffffff;
+  padding-top: 3rem;
+}
+
+.pie-de-pagina {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logo-iconos{
+  width: 250px;
+  margin-left: 1rem;
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+  margin-left: 1.8rem;
+}
 
 
+.icons {
+  display: flex;
+  margin-bottom: 3rem;
+  font-size: 20px;
+}
 
+.icons i{
+  justify-content: space-evenly;
+}
 
+.listed-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 392.73px;
+}
+
+.lista {
+  list-style: none;
+}
+
+.lista li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+.go-form {
+  display: flex;
+  justify-content: center;
+  width: 272.81px;
+  margin-right: 10rem;
+}
+
+.go-form input {
+  width: 201px;
+  height: 44px;
+  border-radius: 2rem;
+  padding-left: 0.8rem;
+  border: none;
+}
+
+.go-form button {
+  height: 42px;
+  width: 63px;
+  border-radius: 1.3rem;
+  background-color: #8b48bf;
+  margin-top: 2px;
+  cursor: pointer;
+  border: none;
+  margin-left: 0.6rem;
+}
+
+.copyright {
+  color: #8c8c94;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 22rem;
+  font-size: 13px;
+  margin-bottom: 10rem;
+}
+
+}
 
 
 
