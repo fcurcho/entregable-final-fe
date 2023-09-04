@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (width <= 1000px) {
 
   .parrafo-footer {
     color: #8c8c94;
@@ -547,6 +547,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;/*Agregue esto*/
   }
 
   .sanyo {
@@ -680,7 +681,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 5rem;
   }
 
   .get-to-know {
@@ -721,7 +723,6 @@ footer {
     color: #8b48bf;
     width: 134px;
     height: 44px;
-    margin-left: 41rem;
     margin-bottom: 3rem;
   }
 
