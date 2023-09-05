@@ -169,8 +169,10 @@
         <div class="pie-de-pagina">
           <div class="flex-container-footer">
             <div class="go-form">
-              <input type="text" placeholder="Update in your inbox..." />
-              <button>Go</button>
+              <form method="get" action="/">
+                <input type="email" name="email" placeholder="Update in your inbox..." required />
+                <button>Go</button>
+              </form>
             </div>
           </div>
 
@@ -243,10 +245,10 @@
             </div>
           </div>
           <div class="go-form">
-            <div>
-              <input type="text" placeholder="Update in your inbox..." />
+            <form method="get" action="/">
+              <input type="email" name="email" placeholder="Update in your inbox..." required />
               <button>Go</button>
-            </div>
+            </form>
             <p class="parrafo-footer">Copyright 2020. All Rights Reserved</p>
           </div>
         </div>

@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 
-@media (width <= 1000px) {
+@media screen and (max-width: 1000px) {
 
   .parrafo-footer {
     color: #8c8c94;
@@ -408,7 +408,7 @@ footer {
 }
 
 /* Desktop */
-@media (width >= 1000px) {
+@media screen and (min-width: 1000px) {
 
   .parrafo-footer {
     color: #8c8c94;
@@ -822,7 +822,7 @@ footer {
   }
 }
 
-@media (1000px <= width < 1150px) {
+@media screen and (max-width: 1150px) and (min-width: 1000px) {
   .hero {
     flex-direction: column;
   }
